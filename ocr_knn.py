@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-digits = cv2.imread("digits.png", cv2.IMREAD_GRAYSCALE)
-test_digits = cv2.imread("test_digits.png", cv2.IMREAD_GRAYSCALE)
+digits = cv2.imread("./assets/digits.png", cv2.IMREAD_GRAYSCALE)
+test_digits = cv2.imread("./assets/test_digits.png", cv2.IMREAD_GRAYSCALE)
 
 rows = np.vsplit(digits, 50)
 cells = []
